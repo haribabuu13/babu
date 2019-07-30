@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.pagelibrary.com.TestExecution">
+        <methods>
+          <include name="save_report"/>
+          <include name="create_fol_report"/>
+          <include name="verify_login"/>
+          <include name="verify_Branches"/>
+          <include name="Send_Method_To_report"/>
+        </methods>
+      </class> <!-- com.pagelibrary.com.TestExecution -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
